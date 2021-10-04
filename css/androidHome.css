@@ -1,0 +1,196 @@
+@media only screen and (max-width: 950px){
+    
+    .common-btn{
+        position:relative;
+        display: inline-block;
+        width:120px;
+        height:30px;
+        transition: .5s;
+        margin-top: 10px;
+    }
+    .common-btn span{
+        font-size: 0.7rem;
+        padding: 7px;
+    }
+    .sub-heading h2{
+        font-size: 1.5rem;
+    }
+    header nav .right-sec i{
+        display: none;
+    }
+    header nav .right-sec .join-btn{
+        padding: 5px;
+        right: 10px;
+        font-size: 0.8rem;
+    }
+    header nav .left-sec{
+        padding: 5px;
+        display: inline-block;
+    }
+    header nav .left-sec h3{
+        font-size: 1.3rem;
+    }
+    .slider img{
+        width: 130%;
+    }
+    .heading h1{
+        font-size: 1.5rem;
+        padding: 0px;
+    }
+    .dwnld-btn a button{
+        width: 130px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner .header-sec{
+        margin: 30px 0px;
+        width: 90%;
+        height: 200px;
+    }
+    .banner .header-sec i{
+        font-size: 3rem;
+    }
+    .banner .header-sec h2{
+        font-size: 1.2rem;
+    }
+    .banner .header-sec p{
+        font-size: 1rem;
+    }
+    .about{
+        margin-top: 160vh;
+    }
+    .about-desc{
+        flex-direction: column;
+    }
+    .left-about{
+        width: 100%;
+    }
+    .right-about{
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 0px;
+    }
+    .common-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .services-desc{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .services-desc-part{
+        width: 100%;
+        margin: 50px 0px;
+        padding:0px 50px;
+    }
+    .services-desc-part:hover{
+        box-shadow: none;
+        transform: scale(1);
+      }
+    .services-subDiv-left p{
+        font-size: 0.9rem;
+        padding-left: 5px;
+    }
+    .services-subDiv-right h3{
+        font-size: 1rem;
+    }
+    
+    .services-subDiv-left img{
+        width: 10vh;
+    }
+    .services-desc-part .partImg{
+        width: 100%;
+    }
+    .left-about img{
+        width: 200px;
+        height: 200px;
+      }
+    .right-about p{
+        font-size: 1rem;
+    }
+    .right-about{
+        width: 100%;
+    }
+    .news{
+        height: 110vh;
+    }
+    .news-desc p{
+        padding: 10px;
+    }
+
+    .subscribe input{
+        width: 75%;
+        height: 40px;
+        font-size: .7rem;
+        padding: 5px;
+     }
+     .subscribe button{
+        width: 20%;
+        height: 40px;
+        font-size: 0.7rem;
+      }
+      .footer-desc{
+          flex-direction: column;
+      }
+      .footer-desc .ftr-desc1 .ftr-heading img{
+        width: 25%;
+        height: 25%;
+      }
+      .footer-desc .ftr-desc1 .ftr-heading h2{
+        font-size: 1.5rem;
+        color: rgb(0, 204, 255);
+        font-family: 'Comfortaa', cursive;
+      }
+      .footer-desc .ftr-desc1{
+          flex-basis: none;
+          margin-right: 0px;
+      }
+      .footer-desc .ftr-desc1 p{
+        color: grey;
+        font-size: 0.9rem;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px;
+      }
+      .footer-desc .ftr-desc2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-basis: none;
+        margin-top: 20px;
+      }
+      .footer-desc .ftr-desc2 h2{
+        font-size: 1.3rem;
+        margin-bottom: 5px;
+        margin-top: 30px;
+      }
+      .footer-desc .ftr-desc2 a{
+        font-size: .8rem;
+        padding: 5px 0px;
+      }
+      .ftr-bottom{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .ftr-bottom p{
+        font-size: 0.8rem;
+      }
+      .ftr-bottom p a{
+        padding: 3px;
+        margin: 5px;
+      }
+      .ftr-bottom-right a i{
+        font-size: 1.3rem;
+        margin: 20px 0px;
+      }
+}
